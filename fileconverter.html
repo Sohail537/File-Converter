@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>File Converter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <textarea placeholder="Type something Here" style="font-size: large;" required></textarea>
+            <div id="details">
+                <h3>
+                    <label for="filename">File Name</label><br>
+                    <input type="text" id="filename" placeholder="Enter file name">
+                </h3>
+                <div id="type">
+                    <label for="saveAs"><h3>Save As</h3 required></label>
+                        <select id="saveAs">
+                            <option value="text/plain">Text File (.txt)</option>
+                            <option value="text/javascript">JS File (.js)</option>
+                            <option value="text/html">HTML File (.html)</option>
+                            <option value="image/svg+xml">SVG File (.svg)</option>
+                            <option value="application/msword">Doc File (.doc)</option>
+                            <option value="application/vnd.ms-powerpoint">PPT File (.ppt)</option>
+                        </select>
+                    </div>
+                </div>
+            <button id="btn">SAVE</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
